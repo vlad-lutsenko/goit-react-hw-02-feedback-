@@ -27,7 +27,8 @@ class App extends Component {
     if (!this.state.good) {
       return 0;
     }
-    return ((this.state.good * 100) / this.countTotalFeedback()).toFixed();
+
+    return Math.round((this.state.good * 100) / this.countTotalFeedback());
   };
 
   render() {

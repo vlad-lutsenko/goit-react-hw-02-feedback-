@@ -1,5 +1,5 @@
 .optionBtn {
   margin-right: 10px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid rgb(230, 64, 91);
 }
